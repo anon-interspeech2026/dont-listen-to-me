@@ -65,7 +65,16 @@
         improves both signal-to-distortion ratio and predicted MOS while reducing compute. Results
         establish OVC as a practical, low-latency enhancement objective for far-field denoising.
       </p>
-      <img src="img/ovc-mixture-tse.png" style="width: 100%" />
+      <figure>
+        <img src="img/ovc-mixture-tse.png" style="width: 100%" />
+        <figcaption style="text-align: center">
+          <strong>Figure 1:</strong> Difference between own voice cancellation (OVC, left) and
+          target speaker extraction (TSE, right). Given a mixture consisting of multiple speakers
+          recorded in a noisy scene and an enrollment utterance, TSE aims to keep only the enrolled
+          speaker, while OVC removes only the enrolled speaker. Both methods jointly denoise and
+          isolate speakers.
+        </figcaption>
+      </figure>
     </div>
 
     <div class="container pt-5 mt-5 shadow p-5 mb-5 bg-white rounded">
